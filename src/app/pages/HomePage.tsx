@@ -290,6 +290,46 @@ const HomePage = () => {
               />
             </div>
           </div>
+          <div className=" kse-content">
+            <div
+              className="kse-layout-body"
+              style={{ height: "calc(100vh - 96px)" }}
+            >
+              <div className="kse-title-2 kse-title-mb kse-content-small-pt">
+                Gold/Silver Secondhand Sale American Market Statistics
+              </div>
+              <div className="kse-content-pb">
+                <div className="kse-title-divider"></div>
+              </div>
+
+              <Result
+                icon={
+                  <div className="kse-row kse-row-center">
+                    <img src={GOLDUPIMG} style={{ borderRadius: 10 }} />
+                  </div>
+                }
+                title={
+                  <p>
+                    <a
+                      href=" https://goldup.vercel.app/american-secondhand-market"
+                      target="_blank"
+                    >
+                      https://goldup.vercel.app/american-secondhand-market
+                    </a>
+                  </p>
+                }
+                subTitle={
+                  <p>
+                    이 페이지는 미국 금은 위탁 판매 시장의 선두 기업들에 대한
+                    통계를 제시합니다. 이 통계에는 기업 순위, 회사규모, 매출,
+                    위탁판매 가능한 제품의 수량, 그리고 은화, 금화, 실버바,
+                    그리고 골드바 위탁판매 비율과 관련된 정보가 포함되어
+                    있습니다.
+                  </p>
+                }
+              />
+            </div>
+          </div>
         </Carousel>
       </div>
     </>
