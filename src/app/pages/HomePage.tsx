@@ -52,7 +52,7 @@ const HomePage = () => {
               style={{ height: "calc(100vh - 96px)" }}
             >
               <div className="kse-title-2 kse-title-mb kse-content-small-pt">
-                한국은거래소 웹 홈페이지
+                Korea Silver Exchange Homepage (Web)
               </div>
               <div className="kse-content-pb">
                 <div className="kse-title-divider"></div>
@@ -82,7 +82,7 @@ const HomePage = () => {
               style={{ height: "calc(100vh - 96px)" }}
             >
               <div className="kse-title-2 kse-title-mb kse-content-small-pt">
-                한국은거래소 모바일 홈페이지
+                Korea Silver Exchange Homepage (Mobile)
               </div>
               <div className="kse-content-pb">
                 <div className="kse-title-divider"></div>
@@ -113,7 +113,7 @@ const HomePage = () => {
               style={{ height: "calc(100vh - 96px)" }}
             >
               <div className="kse-title-2 kse-title-mb kse-content-small-pt">
-                한국은거래소 디자인 플레이그라운드
+                Korea Silver Exchange Design Playground
               </div>
               <div className="kse-content-pb">
                 <div className="kse-title-divider"></div>
@@ -128,7 +128,7 @@ const HomePage = () => {
                 title={
                   <p>
                     <a href="https://kse-design.vercel.app/" target="_blank">
-                      https://kse-design.vercel.app/{" "}
+                      https://kse-design.vercel.app/
                     </a>
                   </p>
                 }
@@ -150,7 +150,7 @@ const HomePage = () => {
               style={{ height: "calc(100vh - 96px)" }}
             >
               <div className="kse-title-2 kse-title-mb kse-content-small-pt">
-                한국은거래소 가격변동 관리시스템
+                Korea Silver Exchange Price Management System (Visilia)
               </div>
               <div className="kse-content-pb">
                 <div className="kse-title-divider"></div>
@@ -185,7 +185,7 @@ const HomePage = () => {
             >
               <div>
                 <div className="kse-title-2 kse-title-mb kse-content-small-pt">
-                  골드업 자산 아카이브
+                  Goldup Assets Archive
                 </div>
                 <div className="kse-content-pb">
                   <div className="kse-title-divider"></div>
@@ -262,7 +262,7 @@ const HomePage = () => {
               style={{ height: "calc(100vh - 96px)" }}
             >
               <div className="kse-title-2 kse-title-mb kse-content-small-pt">
-                골드업 시안 페이지
+                Goldup Prototype Page
               </div>
               <div className="kse-content-pb">
                 <div className="kse-title-divider"></div>
@@ -283,7 +283,8 @@ const HomePage = () => {
                 }
                 subTitle={
                   <p>
-                    골드업 시안입니다. 골드업의 데모를 직접 볼 수는 있습니다!
+                    골드업 시안 홈페이지입니다. 골드업의 데모를 직접 경험해볼
+                    수는 있습니다!
                   </p>
                 }
               />
