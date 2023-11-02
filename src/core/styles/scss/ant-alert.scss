@@ -1,0 +1,17 @@
+@import "./ant-colors.scss";
+
+.ant-alert.ant-alert-primary {
+  background-color: $primary-1;
+  border-color: $primary-3;
+  align-items: center;
+  * {
+    word-break: keep-all;
+  }
+  .ant-alert-icon {
+    color: $primary-6;
+    align-self: start;
+  }
+  .ant-alert-action {
+    padding-left: 8px;
+  }
+}

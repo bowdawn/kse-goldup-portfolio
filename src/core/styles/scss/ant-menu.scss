@@ -1,0 +1,38 @@
+@import "./ant-colors.scss";
+
+.kse-drawer .ant-menu-title-content {
+  display: flex;
+  align-items: center;
+}
+
+.kse-drawer .ant-menu-item {
+  display: flex;
+}
+
+.ant-menu-item-selected * {
+  color: $primary-6;
+}
+
+.ant-menu-light:not(.ant-menu-horizontal) .ant-menu-item-selected,
+.ant-menu-light:not(.ant-menu-horizontal)
+  .ant-menu-item:not(.ant-menu-item-selected):active {
+  background-color: $primary-1;
+}
+.ant-menu li.ant-menu-item-selected[data-menu-id*="logout"],
+.ant-menu li[data-menu-id*="logout"]:hover {
+  background-color: $red-1;
+  * {
+    color: $red-6;
+  }
+}
+
+.ant-menu-light
+  .ant-menu-item[data-menu-id*="logout"]:hover:not(.ant-menu-item-selected):not(
+    .ant-menu-submenu-selected
+  ) {
+  background-color: $red-1;
+}
+
+div.ant-menu-item-group-title:empty {
+  padding: 0;
+}

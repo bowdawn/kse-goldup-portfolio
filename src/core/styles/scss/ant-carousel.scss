@@ -1,0 +1,88 @@
+@import "./ant-colors.scss";
+
+/* Override the default dot styles */
+.ant-carousel .slick-dots {
+  bottom: -24px;
+}
+
+/* Customize the dot appearance */
+.ant-carousel .slick-dots li button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s;
+  opacity: 0.6; /* Adjust opacity as needed */
+  border: none;
+}
+
+/* Style for active dot */
+.ant-carousel .slick-dots li.slick-active button {
+  background-color: $primary-6; /* Active dot color */
+  opacity: 1;
+}
+
+.ant-carousel .slick-dots li.slick-active {
+  width: 16px;
+}
+
+.custom-carousel-arrow {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ) !important; /* Customize the background color */
+  color: white !important; /* Customize the arrow color */
+}
+
+.custom-carousel-arrow:hover {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ) !important; /* Customize the hover background color */
+}
+
+:where(.css-dev-only-do-not-override-16xfl1q).ant-carousel .slick-prev,
+:where(.css-dev-only-do-not-override-16xfl1q).ant-carousel .slick-next {
+  background-color: rgba(256, 256, 256, 0.8);
+  background-color: #ffffff;
+  border-color: #d9d9d9;
+  width: 32px;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+  background-color: #ffffff;
+  border-color: #d9d9d9;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+  font-size: 14px;
+  height: 32px;
+  padding: unset;
+  border-radius: 6px;
+  border-radius: 50%;
+}
+
+.ant-carousel .slick-next {
+  right: -48px;
+}
+
+.ant-carousel .slick-prev {
+  left: -48px;
+}
+
+.ant-carousel .slick-next::before {
+  content: "";
+}
+
+.ant-carousel .slick-prev::before {
+  content: "";
+}
+
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:focus,
+.ant-carousel .slick-prev:focus {
+  color: $primary-6;
+  background-color: white;
+}

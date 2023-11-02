@@ -1,0 +1,69 @@
+@import "./ant-colors.scss";
+
+.ant-card.ant-card-title-wrap .ant-card-meta-title {
+  white-space: unset;
+  text-overflow: unset;
+}
+
+.kse-card-primary-gradient.kse-card {
+  pointer-events: auto;
+  font-size: 14px;
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin: 0;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: border-color 0.3s, background 0.3s,
+    padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  position: relative;
+
+  color: white;
+  background-color: $primary-6;
+  background-image: linear-gradient(
+    to bottom,
+    $primary-9,
+    $primary-8,
+    $primary-7,
+    $primary-6,
+    $primary-6,
+    $primary-7,
+    $primary-8,
+    $primary-9
+  );
+  &:hover {
+    box-shadow: 0 0 10px rgba(62, 0, 179, 0.5);
+  }
+}
+
+.kse-card-primary-hover {
+  box-shadow: 0 0 10px rgba(62, 0, 179, 0.5);
+}
+
+.ant-card.kse-card-actions-bottom {
+  position: relative; /* Ensure the card container is relatively positioned */
+  height: 100%; /* Set the height of the card container */
+  padding-bottom: 57.23px;
+  .ant-card-actions {
+    position: absolute; /* Position the actions container */
+    bottom: 0; /* Stick it to the bottom */
+    width: 100%; /* Make the actions span the full width */
+  }
+}
+
+.kse-card-asset-statistic .ant-statistic-content-value {
+}
+
+.kse-layout-body-primary {
+  .ant-card {
+    .ant-card-meta-description {
+      color: rgba(0, 0, 0, 0.45) !important;
+    }
+    .ant-card-meta-title {
+      color: rgba(0, 0, 0, 0.88) !important;
+    }
+  }
+}

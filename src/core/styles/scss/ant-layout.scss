@@ -1,0 +1,19 @@
+@import "./ant-colors.scss";
+
+.ant-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  .ant-layout-header {
+    color: white;
+    background-color: $primary-10;
+  }
+
+  .ant-layout-content {
+    flex: 1;
+  }
+
+  .ant-layout-footer {
+    margin-top: auto;
+  }
+}

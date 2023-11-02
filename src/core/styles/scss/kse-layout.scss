@@ -1,0 +1,17 @@
+@import "./ant-colors.scss";
+.kse-layout-body.kse-layout-body-primary {
+  background-color: $primary-6;
+  box-shadow: 0 0 10px rgba(62, 0, 179, 0.5);
+  * {
+    color: white !important;
+  }
+}
+
+.kse-layout-section-prototype {
+  width: 420px;
+  flex: unset !important;
+
+  .kse-layout-body {
+    padding: 24px;
+  }
+}

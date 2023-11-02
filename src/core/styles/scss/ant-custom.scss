@@ -1,0 +1,54 @@
+@import "ant-alert.scss";
+@import "ant-button.scss";
+@import "ant-card.scss";
+@import "ant-carousel.scss";
+@import "ant-copy.scss";
+@import "ant-date-picker.scss";
+@import "ant-drawer.scss";
+@import "ant-float-btn.scss";
+@import "ant-form.scss";
+@import "ant-input.scss";
+@import "ant-layout.scss";
+@import "ant-link.scss";
+@import "ant-list.scss";
+@import "ant-menu.scss";
+@import "ant-modal.scss";
+@import "ant-result.scss";
+@import "ant-segmented.scss";
+@import "ant-steps.scss";
+@import "ant-table.scss";
+@import "ant-tabs.scss";
+@import "kse-title-box.scss";
+@import "kse-text.scss";
+@import "kse-layout.scss";
+
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+body * {
+  font-family: "Nanum Gothic" !important;
+}
+
+.kse-layout-body {
+  overflow-y: auto;
+}
+/* Hide the default scrollbar */
+.kse-layout-body::-webkit-scrollbar {
+  width: 8px;
+  margin-right: 8px;
+}
+
+/* Track */
+.kse-layout-body::-webkit-scrollbar-track {
+  background: #8c8c8c; /* Track color */
+  border-radius: 8px; /* Rounded corners for the track */
+}
+
+/* Thumb */
+.kse-layout-body::-webkit-scrollbar-thumb {
+  background: #d9d9d9; /* Thumb color */
+  border-radius: 8px; /* Rounded corners for the thumb */
+}
+
+/* Hovered Thumb */
+.kse-layout-body::-webkit-scrollbar-thumb:hover {
+  background: #f0f0f0; /* Thumb color on hover */
+}

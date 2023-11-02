@@ -1,0 +1,22 @@
+.ant-drawer {
+  .ant-drawer-content-wrapper {
+    height: unset !important;
+    width: 420px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+html body > div:nth-child(3) {
+  width: inherit;
+  .ant-drawer {
+    width: inherit;
+    .ant-modal-wrap {
+      width: inherit;
+      overflow-y: hidden;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+input:-internal-autofill-selected {
+  animation-name: onAutoFillStart;
+  background-color: #f9f0ff !important;
+}
+
+.input:not(:-webkit-autofill) {
+  animation-name: onAutoFillCancel;
+}
+
+@keyframes onAutoFillStart {
+}
+
+@keyframes onAutoFillCancel {
+}

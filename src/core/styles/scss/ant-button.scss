@@ -1,0 +1,23 @@
+@import "./ant-colors.scss";
+
+.ant-btn-default:not(:disabled):hover * {
+  color: $primary-6 !important;
+  border-color: $primary-6 !important;
+}
+
+.ant-btn-primary:not(:disabled) {
+  * {
+    color: #ffffff !important;
+  }
+  .ant-divider {
+    border-color: white;
+    opacity: 0.6;
+  }
+}
+
+.ant-btn {
+  .ant-statistic,
+  .ant-statistic * {
+    transition: all 0.05s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+  }
+}

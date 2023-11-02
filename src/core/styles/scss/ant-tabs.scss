@@ -1,0 +1,20 @@
+.ant-tabs .ant-tabs-tab + .ant-tabs-tab {
+  margin: 0 0 0 16px;
+}
+
+.ant-tabs-centered.ant-tabs > .ant-tabs-nav .ant-tabs-nav-list {
+  width: 100%;
+}
+.ant-tabs-centered.ant-tabs .ant-tabs-tab {
+  flex: 1;
+  justify-content: center;
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn * {
+  color: #6900ff;
+  text-shadow: 0 0 0.25px currentcolor;
+}
+.ant-tabs .ant-tabs-tab:hover .ant-tabs-tab-btn * {
+  color: #6900ff;
+  text-shadow: 0 0 0.25px currentcolor;
+}
