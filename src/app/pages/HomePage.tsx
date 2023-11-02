@@ -259,12 +259,11 @@ const HomePage = () => {
                     Express.js, Node.js의 프레임워크.
                   </li>
                   <li>
-                    세금서 발급 관리: 세금 관련 기능을 처리하기 위한 모듈 또는
-                    서비스가 포함됩니다.
-                  </li>
-                  <li>
-                    Popbill API: 세금서 발급과 관련된 기능을 처리하기 위해
-                    사용되는 Popbill API.
+                    세금서 자동발급 관리{" "}
+                    <a href="https://www.popbill.com/" target="_blank">
+                      (Popbill API)
+                    </a>
+                    : 세금서 자동발급 기능 사용 되고 있습니니다.
                   </li>
                 </ul>
 
