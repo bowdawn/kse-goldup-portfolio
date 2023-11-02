@@ -53,10 +53,25 @@ body * {
   background: #f0f0f0; /* Thumb color on hover */
 }
 
+@media (min-width: 769px) {
+  .ant-result-title {
+    word-wrap: break-word;
+  }
+
+  .ant-result-subtitle {
+    word-wrap: break-word;
+  }
+}
+
 .ant-result-title {
-  font-size: 38px !important;
+  word-wrap: break-word;
 }
 
 .ant-result-subtitle {
-  font-size: 24px !important;
+  word-wrap: break-word;
+}
+@media (max-width: 769px) {
+  .kse-content {
+    padding: 8px !important;
+  }
 }

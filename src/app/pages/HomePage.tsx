@@ -10,7 +10,7 @@ const HomePage = () => {
   return (
     <>
       <div className="kse-content-mv">
-        <Carousel swipe draggable>
+        <Carousel>
           <div className=" kse-content">
             <div
               className="kse-layout-body"
@@ -28,7 +28,14 @@ const HomePage = () => {
                     <Row justify={"center"}>
                       <Space align="center" direction="vertical" size={64}>
                         <div>
-                          <img src={KSELOGO} />
+                          <img
+                            src={KSELOGO}
+                            style={{
+                              maxWidth: "100%",
+                              height: "auto",
+                              borderRadius: 10,
+                            }}
+                          />
                         </div>
                         <PlusOutlined rev={undefined} />
                         <img
@@ -61,7 +68,14 @@ const HomePage = () => {
               <Result
                 icon={
                   <div className="kse-row kse-row-center">
-                    <img src={KSELOGO} />
+                    <img
+                      src={KSELOGO}
+                      style={{
+                        maxWidth: "100%",
+                        height: "auto",
+                        borderRadius: 10,
+                      }}
+                    />
                   </div>
                 }
                 title={
@@ -90,7 +104,14 @@ const HomePage = () => {
               <Result
                 icon={
                   <div className="kse-row kse-row-center">
-                    <img src={KSELOGO} />
+                    <img
+                      src={KSELOGO}
+                      style={{
+                        maxWidth: "100%",
+                        height: "auto",
+                        borderRadius: 10,
+                      }}
+                    />
                   </div>
                 }
                 title={
@@ -122,7 +143,14 @@ const HomePage = () => {
               <Result
                 icon={
                   <div className="kse-row kse-row-center">
-                    <img src={KSELOGO} />
+                    <img
+                      src={KSELOGO}
+                      style={{
+                        maxWidth: "100%",
+                        height: "auto",
+                        borderRadius: 10,
+                      }}
+                    />
                   </div>
                 }
                 title={
@@ -158,7 +186,14 @@ const HomePage = () => {
               <Result
                 icon={
                   <div className="kse-row kse-row-center">
-                    <img src={KSELOGO} />
+                    <img
+                      src={KSELOGO}
+                      style={{
+                        maxWidth: "100%",
+                        height: "auto",
+                        borderRadius: 10,
+                      }}
+                    />
                   </div>
                 }
                 title={
@@ -271,7 +306,14 @@ const HomePage = () => {
               <Result
                 icon={
                   <div className="kse-row kse-row-center">
-                    <img src={GOLDUPIMG} style={{ borderRadius: 10 }} />
+                    <img
+                      src={GOLDUPIMG}
+                      style={{
+                        maxWidth: "100%",
+                        height: "auto",
+                        borderRadius: 10,
+                      }}
+                    />
                   </div>
                 }
                 title={
@@ -305,7 +347,14 @@ const HomePage = () => {
               <Result
                 icon={
                   <div className="kse-row kse-row-center">
-                    <img src={GOLDUPIMG} style={{ borderRadius: 10 }} />
+                    <img
+                      src={GOLDUPIMG}
+                      style={{
+                        maxWidth: "100%",
+                        height: "auto",
+                        borderRadius: 10,
+                      }}
+                    />
                   </div>
                 }
                 title={
